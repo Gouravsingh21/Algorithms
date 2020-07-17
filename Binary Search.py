@@ -9,13 +9,13 @@ class Binary:
         a=0
         b = len(self.lst1)
         print('lenght of list',b)
-        while(state):
+        while (state):
             mid = (a + b) // 2
             if self.x>self.lst1[mid]:
                 a=mid
-            if self.x<self.lst1[mid]:
+            elif self.x<self.lst1[mid]:
                 b=mid
-            if self.x==self.lst1[mid]:
+            elif self.x==self.lst1[mid]:
                 print('your index place',mid)
                 state=False
                 return mid

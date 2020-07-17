@@ -26,6 +26,6 @@ def divide(lst):
                 lst[k]=r[j]
                 j=j+1
                 k=k+1
-lst=[3,1,0,4,2]
+lst=[44,12,7,0,23,15,20,10,5,30,13]
 divide(lst)
 print('sorted list',lst)
