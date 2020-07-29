@@ -19,8 +19,9 @@ def display(ar,n):
     print('\r')
 def main():
     a=arr.array('i',[1,2,3,4,5,6,7])
+    print(a)
     n=len(a)
     #r=int(input('enter the no. of elements you wnat to rotate'))
-    r=2
+    r=int(input('enter the no to rotate the array'))
     rotate(a,n,r)
 main()

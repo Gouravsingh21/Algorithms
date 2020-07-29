@@ -8,16 +8,16 @@ class Count:
         show={}
         for index in range(0,len(arr)):
             count=0
-            if arr[index] in show:
+            if str(arr[index]) in show:
                 pass
             else:
                 for j in range(index,len(arr)):
 
                     if arr[index]==arr[j]:
                         count=count+1
-                        show[arr[index]]=count
+                        show[str(arr[index])]=count
                     else:
-                        show[arr[index]]=count
+                        show[str(arr[index])]=count
         print('frequency dictionay is here',show)
 
 arr=array.array('i',[1,2,1,2,3,4,5,1,2,9,10])
