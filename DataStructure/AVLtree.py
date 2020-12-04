@@ -1,4 +1,4 @@
-# write a program to create AVL TREE tree
+# write a program to create AVL tree
 class Node:
     def __init__(self,val):
         self.val=val
