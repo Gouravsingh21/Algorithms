@@ -1,6 +1,5 @@
 # write a program to implement Heap data structure
 # Python3 implementation of Min Heap
-
 import sys
 class MinHeap:
 
